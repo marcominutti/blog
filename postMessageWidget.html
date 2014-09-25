@@ -3,12 +3,12 @@
 <link rel="stylesheet" href="styles.css">
 <script>
 
-var targetOrigin = "http://minutti.byethost10.com";
+var targetOrigin = "https://marcominutti.github.io";
 
 // TODO whitelist array
 
 function messageHandler(e) {
-    if (e.origin === "http://minutti.byethost10.com") {
+    if (e.origin === "https://marcominutti.github.io") {
         document.getElementById("status").textContent = e.data;
     } else {
         // ignore messages from other origins
