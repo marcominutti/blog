@@ -6,7 +6,7 @@
 var targetOrigin = "http://minutti.byethost10.com/";
 
 function messageHandler(e) {
-    if (e.origin === "https://marcominutti.github.io") {
+    if (e.origin === "http://minutti.byethost10.com") {
         document.getElementById("status").textContent = e.data;
     } else {
         // ignore messages from other origins
